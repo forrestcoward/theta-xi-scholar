@@ -1,6 +1,6 @@
 # theta-xi-scholar
 
-<b>Overview</b>
+## Overview
 
 Fraternity website for uploading and querying university exam documents (and more)
 
@@ -14,7 +14,7 @@ The website has two main functionalities:
 
 I make no guarantees there are no security flaws :)
 
-<b>Hosting</b>
+## Hosting
 
 This code has some dependencies which at the moment are not included in soure control. The two that I remember are pdftk, a pdf merging tool, and having a SQL database set up with the proper schema. There does not appear to be a database creation script. 
 
