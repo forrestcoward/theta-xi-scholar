@@ -35,48 +35,12 @@
 				</ul> 
 		</div>
 		
-		<div id="sidebar">
-		
+		<div id="sidebar">	
 				<h2>Recent Book Activity</h2>
 				
 				<?php
 					getRecentBookActivity();
-				?>
-				
-				<!--
-				
-				<h3>News Title</h3>
-				
-				<p class="news">
-					An example of a "latest news" type text area. Here would be the excerpt of the article. You can of course put anything you like here.
-					<a href="#" class="more">Read More &raquo;</a>
-				</p>
-				
-				<h3>News Title</h3>
-				
-				<p class="news">
-					An example of a "latest news" type text area. Here would be the excerpt of the article. You can of course put anything you like here.
-					<a href="#" class="more">Read More &raquo;</a>
-				</p>
-				
-				<h3>News Title</h3>
-				
-				<p class="news">
-					An example of a "latest news" type text area. Here would be the excerpt of the article. You can of course put anything you like here.
-					<a href="#" class="more">Read More &raquo;</a>
-				</p>
-				
-				<h2>Sub Navigation</h2>
-				
-				<ul class="subnav">
-						<li><a href="#"><b>&raquo;</b>Link Here</a></li>
-						<li><a href="#"><b>&raquo;</b>Link Here</a></li>
-						<li><a href="#"><b>&raquo;</b>Link Here</a></li>
-						<li><a href="#"><b>&raquo;</b>Link Here</a></li>
-				
-				</ul>
-				-->
-		
+				?>		
 		</div>
 	
 		<div id="contentnorightbar">

@@ -30,17 +30,6 @@ function addFile() {
 		
 		$("upload_table").appendChild(row);
 	}
-
-	/*
-	if(count < 30) {
-		count++;
-		var name = "userfile" + count;
-		var input = document.createElement("input");
-		input.setAttribute('type', 'file');
-		input.setAttribute('size', 50);
-		input.setAttribute('name', name);
-		$("upload").appendChild(input);
-	} */
 }
 
 function validateForm() {

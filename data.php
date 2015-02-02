@@ -3,12 +3,12 @@
 $data["enter_title"] = "U.W. Theta Xi Scholarship Center";
 $data["enter_web_title"] = "Scholarship Center";
 $data["enter_page_name"] = "enter.php";
-$data["tx_logo_name"] = "../txscholar/images/coatofarms_small.jpg";
+$data["tx_logo_name"] = "images/coatofarms_small.jpg";
 $data["access_denied_page_name"] = "access_denied.php";
 $data["login_required_page_name"] = "login_required.php";
-$data["contact_email"] = "forrest-coward@comcast.net";
+$data["contact_email"] = "contact-email";
 $data["user_redirect"] = "home.php";
-$data["base_url"] = "http://www.uwthetaxi.com/txscholar/";
+$data["base_url"] = "base-website-uri";
 
 // Overall website
 $data["website_header"] = "Scholarship Center";
@@ -23,7 +23,6 @@ $data["book_search_url_full"] = $data["base_url"].$data["book_search_url"];
 $data["library_url"] = "library.php";
 $data["library_title"] = "Library Search";
 $data["library_url_full"] = $data["base_url"].$data["library_url"];
-
 
 // Statistics
 $data["statistics_url"] = "statistics.php";

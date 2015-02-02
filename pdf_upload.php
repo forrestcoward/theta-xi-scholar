@@ -98,8 +98,6 @@
 	if(isset($_POST['id'])) { $id = $_POST['id']; } else { exit(0); }
 	
 	// Clean form data.
-	//$doctype = clean($doctype);
-	//$comments = clean($comments);
 	$comments = strip_html_tags($comments);
 	$course_num = strip_html_tags($course_num);
 	
@@ -122,11 +120,6 @@
 		echo 'You did not enter a course number. Try again.';
 		exit(0);
 	}
-	
-	//if(!is_int($course_num) || $course_num < 1) {
-	//	echo 'You did not enter a proper integer. Try again.';
-	//	exit(0);
-	//}
 	
 	$ext = '.pdf';
 	$middle = md5(time().$_SERVER['REMOTE_ADDR']);

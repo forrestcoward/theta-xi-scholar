@@ -7,9 +7,9 @@ include_once 'php_classes/Book.php';
 
 # Define MySQL Settings
 define("MYSQL_HOST", "localhost");
-define("MYSQL_USER", "uwthetax_txadmin");
-define("MYSQL_PASS", "upsilon");
-define("MYSQL_DB", "uwthetax_txscholar");
+define("MYSQL_USER", "user-name");
+define("MYSQL_PASS", "password");
+define("MYSQL_DB", "databse-name");
 
 function connect_to_db() {
 	$conn = mysql_connect("".MYSQL_HOST."", "".MYSQL_USER."", "".MYSQL_PASS."") or die(mysql_error());

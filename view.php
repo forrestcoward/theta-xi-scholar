@@ -59,8 +59,7 @@
 		<!--<h2>Navigate Home Pages:</h2>-->
 		<ul class="subnav"> <?php generatePageSubNav($homenav); ?> </ul>
 	</div>
-	
-	
+		
 	<div id="contentnorightbar">
 		<?php
 			if($output == true) {

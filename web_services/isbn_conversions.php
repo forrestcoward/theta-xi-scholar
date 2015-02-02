@@ -69,7 +69,6 @@ function checkIsbn($isbn) {
 	return false;
 }
 
-
 function check_10_digit($x) {
     $check = 0;
     for ($i = 0; $i < 9; $i++) $check += (10 - $i) * substr($n, $i, 1);
