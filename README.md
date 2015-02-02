@@ -4,7 +4,7 @@
 
 Fraternity website for uploading and querying university exam documents (and more)
 
-This is code I wrote years ago in college after I promised to create a website for my fraternity. This was my first time writing html, css, php, javascript, and was my first experience managing a live website. If you are looking for state of the art, turn back now. You won't find any fancy php templating frameworks here; this is old school. I remember at the time trying my best at the time to seperate my php, javascript, and html and really, the sphagetti really isn't that bad! Looking back, I am proud I wrote this as a first attempt and with little programming experience. I learned so much writing this.
+This is code I wrote years ago in college after I promised to create a website for my fraternity. This was my first time writing html, css, php, javascript, and was my first experience managing a live website. If you are looking for state of the art, turn back now. You won't find any fancy php templating frameworks here; this is old school. I remember at the time trying my best to seperate php, javascript, and html and really, the sphagetti really isn't that bad! Looking back, I am proud I wrote this as a first attempt and with little programming experience. I learned so much writing this.
 
 The website has two main functionalities:
 
