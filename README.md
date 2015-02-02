@@ -1,5 +1,3 @@
-# theta-xi-scholar
-
 ## Overview
 
 Fraternity website for uploading and querying university exam documents (and more)
