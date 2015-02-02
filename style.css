@@ -1,0 +1,651 @@
+/*
+ctrl-f "link_color" to go to css which controls colors of links.
+*/
+
+body {
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-size:11px;
+	color:#444;
+	margin:20px;
+	background:url(../txscholar/css_images/body.jpg) #f6f6f6;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	background:#fff;
+	border:3px solid #f1f1f1;
+	max-width:1200px;
+	width:expression(this.width > 320 ? "320px" : this.width);
+	min-width:760px;
+	margin:0 auto;
+}
+
+* html #wrapper
+{
+	width: expression(document.documentElement.clientWidth > 1200 ? "1200px" : "auto");
+}
+
+#innerwrapper {
+	margin:1px;
+	background:url(../txscholar/css_images/innerwrapper.jpg) top repeat-x;
+	padding:20px;
+}
+
+#header input {
+	width:150px;
+	padding:5px;
+	background:#fff;
+	border:1px solid #f6f6f6;
+	font:150% Verdana;
+	color:#999;
+}
+
+#header input:hover {
+	border:1px solid #ccc;
+}
+
+#header input:focus {
+	border:1px solid #79B5D6;
+	color:#555;
+}
+
+#header form {
+	padding:27px 25px 20px 25px;
+	float:right;
+	background:#fff;
+	width:160px;
+	margin:-20px -20px 0 0 !important;
+	margin:-20px -10px 0 0;
+	border:none;
+}
+
+#header h1 {
+	float:left;
+	font:250% Georgia;
+	color:black;
+	padding:5px 20px 5px 5px;
+	
+	margin:0 20px 0 0;
+}
+
+#header h1 a {
+	color:#333;
+	text-decoration:none;
+	
+}
+
+#header h1 a:hover {
+	color:#111;
+	
+}
+
+#header h2 {
+	font:150% Georgia;
+	font-weight:normal;
+	color:black;
+	padding:14px 0 0 0;
+	border:none;
+}
+
+#header h2 a {
+	color:#555;
+	text-decoration:none;
+	border-bottom:1px solid #f6f6f6;
+}
+
+
+#header #nav {
+	clear:both;
+	background:url(../txscholar/css_images/nav.jpg) top repeat-x #4F9EC9;
+	border-bottom:1px solid #4F9EC9;
+	border-top:1px solid #388CBA;
+	border-left:1px solid #388CBA;
+	border-right:1px solid #388CBA;
+	padding:10px 10px 10px 0 !important;
+	padding:4px 10px 10px 0;
+}
+
+#header a em {
+	font-style:normal;
+	text-decoration:underline;
+}
+
+#header #nav a {
+	color:#fff;
+	font:140% Trebuchet MS;
+	text-decoration:none;
+	padding:10px;
+}
+
+#header #nav a:hover {
+	background:#993399;
+}
+
+#header #nav a.active {
+	font-weight:bold;
+	color:black;
+}
+
+#header #nav li {
+	display:inline;
+	list-style:none;
+	margin:0 1px 0 0;
+}
+
+#header #subnav {
+	background:#2447B2;
+	padding:5px 7px 7px 7px;
+	font:90% Verdana;
+	color:black;
+	border-bottom:1px solid #388CBA;
+	border-left:1px solid #388CBA;
+	border-right:1px solid #388CBA;
+}
+
+#header #subnav li {
+	list-style:none;
+	display:inline;
+}
+
+#header #subnav a {
+	color:#DEEDF5;
+	text-decoration:none;
+	font:100% Verdana;
+	padding:5px;
+	border-bottom:1px solid #4F9EC9;
+}
+
+#header #subnav a:hover {
+	border-bottom:1px solid #388CBA;
+	color:#fff;
+}
+
+#header #subnav a.active {
+	border-bottom:1px solid #388CBA;
+	color:#fff;
+}
+
+
+#sidebar {
+	background:#fff;
+	width:210px;
+	padding:10px 20px 20px 5px;
+	float:left;
+	color:#666;
+}
+
+#sidebar h2 {
+	font:160% Arial;
+	color:#333;
+	margin:10px 0 10px 0;
+	border:none;
+}
+
+#sidebar h3 {
+	color:black;
+	font:100% Verdana;
+	font-weight:bold;
+	letter-spacing:1px;
+	margin:0 0 -10px 0;
+}
+
+#sidebar p {
+	margin:15px 0;
+}
+
+#sidebar p.news {
+	background:#fefefe;
+}
+
+#sidebar p.news a.more {
+	color:#ccc;
+	display:block;
+	text-align:right;
+	font:80% Verdana;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	text-decoration:none;
+	padding:10px 0;
+}
+
+#sidebar p.news a:hover {
+	color:#666;
+}
+
+#sidebar .subnav {
+	border-top:1px solid #fafafa;
+}
+
+#sidebar .subnav li {
+	list-style:none;
+	padding:5px;
+	border-bottom:1px solid #fafafa;
+}
+
+#sidebar .subnav li a {	
+	color:black;
+	text-decoration:none;
+	display:block;
+}
+
+#sidebar .subnav li a:hover {
+	color:#993399;
+}
+
+#sidebar .subnav li a b {
+	float:right;
+	display:none;
+	color:#666;
+}
+
+#sidebar .subnav li a:hover b {
+	display:inline;
+}
+
+#sidebar input:hover {
+	border:1px black solid;
+}
+
+#sidebar input {
+	padding:4px 4px 4px 4px;
+	margin:3px 3px 3px 3px;
+	background:#f6f6f6;
+	border:1px solid #ccc;
+	color:#777;
+	font:90% Verdana;
+	/*width:190px;*/
+}
+
+#sidebarright {
+	width:170px;
+	float:right;
+	padding:10px 0 0 20px;
+	background:url(../txscholar/css_images/sidebarright.jpg) top left no-repeat;
+}
+
+#sidebarright p {
+	font:90% Verdana;
+	color:#777;
+	line-height:20px;
+	margin:10px 0;
+}
+
+#sidebarright h2 {
+	font:140% Arial;
+	color:#333;
+	margin:10px 0;
+	border:none;
+}
+
+#sidebarright ul {
+	margin:10px 0 10px 15px;
+	font:90% Verdana;
+}
+
+#sidebarright ul li {
+	margin:5px 0;
+}
+
+#sidebarright a {
+	border-bottom:1px dotted #eee;
+	color:#444;
+	text-decoration:none;
+}
+
+#sidebarright a:hover {
+	border-bottom:1px solid #ccc;
+}
+
+
+#content {
+	margin:0 210px 0 240px;
+	padding:20px 0 0 20px;
+}
+
+#contentnorightbar {
+	margin:0 0 0 240px;
+	padding:20px 0 0 20px;
+}
+
+#book_info {
+	border-style:solid;
+	border-width:1px; 
+	background-color:#eee;
+}
+
+
+p {
+	margin:15px 0;
+	line-height:22px;
+}
+
+h2 {
+	font:140% Verdana;
+	color:black
+}
+
+/* Determines color of links of book titles in displayed book table. */
+/* link_color */
+h2 a {
+	color:#CC00FF; /* Light purple */
+	text-decoration:none;
+}
+
+h2 a:hover {
+	color:#5F9128;
+}
+
+
+#footer {
+	clear:both;
+	border-top:1px solid #eee;
+	padding:10px;
+	margin:30px 0 0;
+}
+
+
+/* Determines color of links in recent book activity. */
+/* link_color */
+a {
+	color:#400055;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#D119D1;
+}
+
+h3 {
+	font:140% Trebuchet MS;
+	margin:10px 0;
+}
+
+#content ul {
+	margin:15px 0 15px 0;
+	line-height:25px;
+	padding:15px 0 15px 15px;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	color:#79B933;
+}
+#content ul span {
+	color:#444;
+}
+#contentnorightbar ul {
+	margin:15px 0 15px 20px;
+	line-height:25px;
+	padding:15px 0;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	color:#79B933;
+}
+#contentnorightbar ul span {
+	color:#444;
+}
+
+img {
+	padding:1px;
+	/*background:#ccc;*/
+	/*border:2px solid #f6f6f6;*/
+}
+
+form {
+	padding:10px;
+	border:1px solid #f6f6f6;
+}
+
+label {
+	display:block;
+	color:#444;
+	margin:5px 0;
+	/*font-weight:bold;*/
+}
+
+input {
+
+	/*forrest padding:1px;*/
+	font:Verdana;
+}
+
+input:hover {
+	/*border:1px solid black;*/
+}
+
+textarea {
+	font:Verdana;
+}
+
+textarea:hover {
+	border:1px solid black;
+}
+
+p img {
+	float:left;
+	margin:0 10px 0 0;
+}
+
+blockquote p {
+	font:160% Georgia;
+	color:#aaa;
+	padding:0 10% 0 0;
+	line-height:30px;
+}
+
+/* Book listing style information...
+
+Each book listing contains two tables. The outer table has one row with two pieces of the data. The first data is the book image (class 'book_image'). The second data is the book heading, followed by an <hr> tag, followed by the inner table. The inner table contains on the left side the type of book information (class 'book_description') and the right side contains the book data (class 'book_data'), that matches the corresponding book information. 
+
+The 'outer_book_table' class contains one entire book listing. 
+
+*/
+
+table.inner_book_table {
+    padding:8px 0px 0px 10px;
+}
+
+table.outer_book_table {
+	text-align:left;
+	padding:10px 0px 0px 0px;
+}
+
+td.book_description {
+	font-weight:bold;
+    padding: 1px 0px 0px 0px;
+	width:100px;
+}
+
+td.book_data {
+
+}
+
+/* Styles the table data that contains the book image. */
+td.book_image {
+	width:170px;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+/* Styles the image tag contained within the table data. */
+td.book_image img {
+	margin-left:auto; 
+	margin-right:auto;
+	display: block;
+    padding: 20px 0px 0px 10px;
+    border-color:white;
+    background-color:white;
+    text-align:center;
+	border:0px solid;
+}
+
+/* Styles logout option in subnav. */
+#logout {
+	padding:0;
+	margin:0;
+}
+
+/* On the pages search bar, styles the hover of non-current pages. */
+a.page_link:hover {
+	background:#3399FF;
+}
+
+/* On the pages search bar, styles the links to other pages (not the current). */
+a.page_link {
+	color:#CC00FF;
+}
+
+/* On the pages search bar, styles the current page link. */
+a.current_page {
+	font-size:18px;
+	color:black;
+}
+
+/* Styles the page selection div on the search bar. */
+div.page_selection {
+	font-size:16px;
+}
+
+.major {
+	width:400px;
+}
+
+.test_bank_menu {
+	width:140px;
+}
+
+.major_selection {
+	width:190px;
+	padding:4px 4px 4px 4px;
+	margin:3px 3px 3px 3px;
+	background:#f6f6f6;
+	border:1px solid #ccc;
+	color:#777;
+	font:90% Verdana;
+}
+
+.course_num_selection {
+	width:80px;
+	padding:4px 4px 4px 4px;
+	margin:3px 3px 3px 3px;
+	background:#f6f6f6;
+	border:1px solid #ccc;
+	color:#777;
+	font:90% Verdana;
+}
+
+table.condensed_book_table {
+	text-align:center;
+	font-size:11px;
+	color:#333333;
+	border-width: 2px;
+	border-color: #999999;
+	border-collapse: collapse;
+	/*background-color:#f6f6f6;*/
+}
+
+table.condensed_user_book_table {
+	text-align:center;
+	font-size:11px;
+	color:#333333;
+	border-width: 2px;
+	border-color: #999999;
+	border-collapse: collapse;
+	/*background-color:#f6f6f6;*/
+}
+
+table.condensed_book_table th {
+	background:#b5cfd2 url('../txscholar/images/cell-blue.jpg');
+	border-width: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+
+table.condensed_user_book_table th {
+	background:#b5cfd2 url('../txscholar/images/cell-blue.jpg');
+	padding: 4px;
+	border-style: solid;
+	border-color: #999999;
+	border-width: 1px;
+}
+
+table.condensed_book_table td {
+	/*background:#dcddc0 url('../txscholar/images/cell-grey.jpg');*/
+	border-width: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+table.condensed_user_book_table  img {
+	/*padding: 4px;
+	border: 1px solid black;*/
+}
+
+table.condensed_user_book_table td {
+	/*background:#dcddc0 url('../txscholar/images/cell-grey.jpg');*/
+	border-width: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+table.condensed_book_table tr:hover {
+	/*border:2px black solid;*/
+	background-color:#FFFF85;
+}
+
+table.condensed_user_book_table tr:hover {
+	background-color:#FFFF85;
+}
+
+table.condensed_book_table img {
+	border:1px solid black;
+}
+
+tr.odd {
+	background-color:#C5D1DE;
+}
+
+tr.even {
+	background-color:#E8E8E8;
+}
+
+/* plus icon for adding additional pdf files */
+#plusIcon {
+	margin: 0;
+	padding: 0;
+    background-color:white;
+	border-color:white;
+	border: 0px solid white;
+}
+
+/* test bank document link display */
+.test_result a {
+	font-size:16px;
+	font-weight:bold;
+}
+
+/* loading book icon */
+#loading {
+ z-index: 100;
+ position: relative;
+ #top: 40%;
+ #left: 40%;
+ background-image: url('../txscholar/images/ajax-loader.gif');
+ background-repeat: no-repeat;
+ background-position: 5px;
+ background-color: white;
+ padding-left: 25px;
+ padding-top: 8px;
+ border-style: double;
+ border-color: #c0c0c0;
+ width: 120px;
+ height: 30px;
+ font-size: 1.5em;
+ font-weight: bolder;
+}
